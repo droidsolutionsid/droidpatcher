@@ -1,4 +1,4 @@
 RewriteEngine On
-RewriteCond %{HTTP_HOST} !^dev-codebase-io\.com$ [NC]
-RewriteCond %{HTTP_HOST} !^dev-codebase-io\.org$ [NC]
+RewriteCond %{HTTP_HOST} !^napsprolite\.com$ [NC]
+RewriteCond %{HTTP_HOST} !^napsprolite\.net$ [NC]
 RewriteRule ^ - [F]
